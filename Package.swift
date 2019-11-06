@@ -11,7 +11,7 @@ let package = Package(
         .library( name: "CameraBackground", targets: ["CameraBackground"])
     ],
     dependencies: [
-        .package(url: "https://github.com/yonat/SweeterSwift", from: "1.0.2")
+        .package(url: "https://github.com/yonat/SweeterSwift", from: "1.0.2"),
         .package(url: "https://github.com/yonat/MultiToggleButton", from: "1.8.2")
     ],
     targets: [
